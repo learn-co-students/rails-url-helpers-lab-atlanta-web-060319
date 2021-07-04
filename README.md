@@ -12,7 +12,7 @@
 
 ## Instructions
 
-In this lab you will be building out the Student management dashboard for the Flatiron School by starting to integrate the ability to link between pages. Four tests are currently passing, and the rest need implementation code to start passing. In order to complete this lab, you will need to complete the following tasks:
+In this lab you will be building out the Student management dashboard for the Flatiron School by starting to integrate the ability to link between pages. Two tests are currently passing, and the rest need implementation code to start passing. In order to complete this lab, you will need to complete the following tasks:
 
 - A user should be able to navigate to `/students` to view all of the students.
 
@@ -20,7 +20,7 @@ In this lab you will be building out the Student management dashboard for the Fl
 
 - Create a new boolean attribute called `active` in the students table. (HINT: You might have to search around for the best way to set a (_ahem_) **default value** (should default to false).)
 
-- A user should be able to go to `/students/:id/activate` to toggle their `active` attribute between `true` and `false`.
+- A user should be able to go to `/students/:id/activate` to toggle their `active` attribute between `true` and `false`. (This is just the activate route, and not a actual view.)
 
 - Read the failing tests and modify the code until they pass.
 
@@ -38,4 +38,3 @@ In this lab you will be building out the Student management dashboard for the Fl
 
 - [URL Helper Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/rails-url-helpers-lab'>Rails URL Helpers Lab</a> on Learn.co and start learning to code for free.</p>
